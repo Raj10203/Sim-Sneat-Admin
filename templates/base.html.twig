@@ -7,8 +7,10 @@
         {% endblock %}
     </title>
     {% block stylesheets %}{% endblock %}
+            {{ encore_entry_link_tags('app') }}
 
     {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
         {% block importmap %}
             {{ importmap('app') }}
         {% endblock %}
