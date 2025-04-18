@@ -20,5 +20,5 @@ final class HomeController extends AbstractController
         return $this->render('home/products.html.twig', [
             'product_name' => 'abc'
         ]);
-    }
+    }i
 }
